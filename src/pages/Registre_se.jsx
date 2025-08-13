@@ -1,45 +1,52 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Se usar React Router
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+function RegistreSe() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aqui você pode adicionar lógica para enviar dados ou validar senha
+    alert('Cadastro enviado!');
+  };
 
-function Registre_se() {
-    return (
-        <>
-        <div className="navbar">
-    <div className="nav-esquerda">
-      <a href="index.jsx">Home</a>
-      <a href="contato.jsx">Contato</a>
-      <a href="sobre.jsx">Sobre</a>
-      <a href="login.jsx">Login</a>
-      <a href="registre-se.jsx">Registre-se</a>
-    </div>
-  </div>
+  return (
+    <>
+      <nav className="navbar">
+        <div className="nav-esquerda">
+          <Link to="/">Home</Link>
+          <Link to="/contato">Contato</Link>
+          <Link to="/sobre">Sobre</Link>
+          <Link to="/login">Login</Link>
+          <Link to="/registre_se">Registre-se</Link>
+        </div>
+      </nav>
 
-  <div className="login-container">
-    <h1>Pão Delivery</h1>
-    <h2>Crie sua conta</h2>
+      <div className="login-container">
+        <h1>Pão Delivery</h1>
+        <h2>Crie sua conta</h2>
 
-    <form className="login-form">
-      <label for="nome">Nome completo:</label>
-      <input type="text" id="nome" placeholder="Digite seu nome" required/>
+        <form className="login-form" onSubmit={handleSubmit}>
+          <label htmlFor="nome">Nome completo:</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Digite seu email" required/>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" placeholder="Digite seu email" required />
 
-      <label for="senha">Senha:</label>
-      <input type="password" id="senha" placeholder="Crie uma senha" required/>
+          <label htmlFor="senha">Senha:</label>
+          <input type="password" id="senha" placeholder="Crie uma senha" required />
 
-      <label for="confirmar-senha">Confirmar senha:</label>
-      <input type="password" id="confirmar-senha" placeholder="Repita a senha" required/>
+          <label htmlFor="confirmar-senha">Confirmar senha:</label>
+          <input type="password" id="confirmar-senha" placeholder="Repita a senha" required />
 
-      <button type="submit">Cadastrar</button>
+          <button type="submit">Cadastrar</button>
 
-      <p className="registro">Já tem uma conta? <a href="login.jsx">Fazer login</a></p>
-    </form>
-  </div>
-        </>
-    )
+          <p className="registro">
+            Já tem uma conta? <Link to="/Login">Fazer Login</Link>
+          </p>
+        </form>
+      </div>
+    </>
+  );
 }
 
-export default Registre_se
+export default RegistreSe;

@@ -1,0 +1,14 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #66430b;; /* Ou a cor que quiser */
+    z-index: 1000; /* Para ficar acima do conteúdo */
+}
+.rodape p {
+    margin: 0;
+    color: #fa9d08;
+    font-family: Arial, sans-serif;
+}
