@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useNavigate } from 'react-router-dom';
 
+
 function Carrinho() {
   const navigate = useNavigate();
 
@@ -47,9 +48,7 @@ function Carrinho() {
         </div>
       </main>
 
-      <footer className="rodape">
-        <p>&copy; 2025 Pão Delivery. Todos os direitos reservados.</p>
-      </footer>
+     
     </>
   );
 }

@@ -12,20 +12,7 @@ function Pedido() {
 
   return (
     <>
-      <div className="navbar">
-        <div className="nav-esquerda">
-          <Link to="/">Home</Link>
-          <Link to="/contato">Contato</Link>
-          <Link to="/sobre">Sobre</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/registre_se">Registre-se</Link>
-        </div>
-
-        <div className="nav-direita">
-          <input type="text" placeholder="Buscar pão..." />
-          <Link to="/carrinho">🛒 Carrinho</Link>
-        </div>
-      </div>
+      
 
       <header className="cabecalho-site">
         <h1>Faça seu pedido</h1>
@@ -47,9 +34,7 @@ function Pedido() {
         </form>
       </div>
 
-      <footer className="rodape">
-        <p>&copy; 2025 Pão Delivery. Todos os direitos reservados.</p>
-      </footer>
+      
     </>
   );
 }

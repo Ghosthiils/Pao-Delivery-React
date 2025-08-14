@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Se usar React Router
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function RegistreSe() {
+function Registre_se() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aqui você pode adicionar lógica para enviar dados ou validar senha
@@ -11,15 +11,8 @@ function RegistreSe() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-esquerda">
-          <Link to="/">Home</Link>
-          <Link to="/contato">Contato</Link>
-          <Link to="/sobre">Sobre</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/registre_se">Registre-se</Link>
-        </div>
-      </nav>
+    
+    
 
       <div className="login-container">
         <h1>Pão Delivery</h1>
@@ -41,7 +34,7 @@ function RegistreSe() {
           <button type="submit">Cadastrar</button>
 
           <p className="registro">
-            Já tem uma conta? <Link to="/Login">Fazer Login</Link>
+            Já tem uma conta? <Link to="/login">Fazer Login</Link>
           </p>
         </form>
       </div>
@@ -49,4 +42,4 @@ function RegistreSe() {
   );
 }
 
-export default RegistreSe;
+export default Registre_se;

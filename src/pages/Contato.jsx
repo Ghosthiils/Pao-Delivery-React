@@ -6,15 +6,7 @@ function Contato() {
   return (
     <>
       <div className="container">
-        <div className="navbar">
-          <div className="nav-esquerda">
-            <Link to="/">Home</Link>
-            <Link to="/contato">Contato</Link>
-             <Link to="/sobre">Sobre</Link>
-                      <Link to="/login">Login</Link>
-                      <Link to="/registre_se">Registre-se</Link>
-          </div>
-        </div>
+       
 
         <section className="contato">
           <h1>Entre em contato com a gente !!!</h1>
@@ -43,10 +35,8 @@ function Contato() {
         </section>
       </div>
 
-      <footer className="rodape">
-        <p>&copy; 2025 Pão Delivery. Todos os direitos reservados.</p>
-        <p>Feito com ❤️ por Luiz</p>
-      </footer>
+      
+      
     </>
   );
 }

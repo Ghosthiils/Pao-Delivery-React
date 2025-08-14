@@ -4,15 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Sobre() {
   return (
     <>
-      <div className="navbar">
-        <div className="nav-esquerda">
-          <a href="index.jsx">Home</a>
-          <a href="contato.jsx">Contato</a>
-          <a href="sobre.jsx">Sobre</a>
-          <a href="login.jsx">Login</a>
-          <a href="registre_se.jsx">Registre-se</a>
-        </div>
-      </div>
+     
 
       <div className="cabecalho-site">
         <h1>Sobre a Pão Delivery</h1>

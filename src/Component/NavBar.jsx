@@ -6,11 +6,11 @@ function Navbar() {
     
     <div className="navbar">
     <div className="nav-esquerda">
-      <a href="index.html">Home</a>
+      <a href="/">Home</a>
       <a href="contato.html">Contato</a>
       <a href="sobre.html">Sobre</a>
       <a href="login.html">Login</a>
-      <a href="registre-se.html">Registre-se</a>
+      <a href="registre_se.html">Registre-se</a>
     </div>
 
     <div className="nav-direita">
