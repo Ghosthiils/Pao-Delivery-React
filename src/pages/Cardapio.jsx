@@ -18,7 +18,7 @@ function Cardapio() {
       <div className="galeria-produtos">
         <div className="produto">
           <Link to="/pedido">
-            <img src="/public/paofrancescrocante.jpg" alt="Pão francês" />
+            <img src="./paofrancescrocante.jpg" alt="Pão francês" />
           </Link>
           <p>Pão francês crocante<br /><strong>R$ 1,00</strong></p>
         </div>
