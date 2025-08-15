@@ -25,28 +25,28 @@ function Cardapio() {
 
         <div className="produto">
           <Link to="/pedido">
-            <img src="/public/paointegralsaudavel.jpeg" alt="Pão integral" />
+            <img src="./paointegralsaudavel.jpeg" alt="Pão integral" />
           </Link>
           <p>Pão integral saudável<br /><strong>R$ 1,50</strong></p>
         </div>
 
         <div className="produto">
           <Link to="/pedido">
-            <img src="/public/Croissantamanteigado.jpeg" alt="Croissant" />
+            <img src="./Croissantamanteigado.jpeg" alt="Croissant" />
           </Link>
           <p>Croissant amanteigado<br /><strong>R$ 3,50</strong></p>
         </div>
 
         <div className="produto">
           <Link to="/pedido">
-            <img src="/public/paodeformaartesanal.jpeg" alt="Pão de forma" />
+            <img src="./paodeformaartesanal.jpeg" alt="Pão de forma" />
           </Link>
           <p>Pão de forma artesanal<br /><strong>R$ 6,00</strong></p>
         </div>
 
         <div className="produto">
           <Link to="/pedido">
-            <img src="/public/paodocerecheado.jpeg" alt="Pão doce" />
+            <img src="./paodocerecheado.jpeg" alt="Pão doce" />
           </Link>
           <p>Pão doce recheado<br /><strong>R$ 2,50</strong></p>
         </div>
