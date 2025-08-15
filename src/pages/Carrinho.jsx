@@ -37,7 +37,7 @@ function Carrinho() {
 
         <div className="botoes-carrinho">
           {/* Forma 1 - usando Link */}
-          <Link to="/cardapio">
+          <Link to="/">
             <button>Voltar ao cardápio</button>
           </Link>
 

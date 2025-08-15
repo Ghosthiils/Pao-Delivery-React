@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import Navbar from '../Component/NavBar';
 import Footer from '../Component/Footer';
+import CardProduto from '../Component/CardProduto'; 
 
 
 function Cardapio() {
@@ -16,12 +17,13 @@ function Cardapio() {
       </header>
 
       <div className="galeria-produtos">
-        <div className="produto">
-          <Link to="/pedido">
-            <img src="./paofrancescrocante.jpg" alt="Pão francês" />
-          </Link>
-          <p>Pão francês crocante<br /><strong>R$ 1,00</strong></p>
-        </div>
+        <CardProduto imagem="./paofrancescrocante.jpg" titulo="Pão francês crocante" preco="1,50" />
+        <CardProduto imagem="./rosquinhas.webp" titulo="Rosquinhas" preco="10,00" />
+        <CardProduto imagem="./paodocerecheado.jpeg" titulo="Pão Recheado" preco="8,00" />
+        <CardProduto imagem="./paointegralsaudavel.jpeg" titulo="Pão integral" preco="4,00" />
+        <CardProduto imagem="./paofrancescrocante.jpg" titulo="Baguete" preco="12,00" />
+
+{/*         
 
         <div className="produto">
           <Link to="/pedido">
@@ -49,7 +51,7 @@ function Cardapio() {
             <img src="./paodocerecheado.jpeg" alt="Pão doce" />
           </Link>
           <p>Pão doce recheado<br /><strong>R$ 2,50</strong></p>
-        </div>
+        </div> */}
       </div>
 
       
